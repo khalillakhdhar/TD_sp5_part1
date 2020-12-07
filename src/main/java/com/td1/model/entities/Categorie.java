@@ -1,6 +1,5 @@
 package com.td1.model.entities;
 
-import java.io.Serializable;
 import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -16,7 +15,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "categorie")
 
-public class Categorie implements Serializable {
+public class Categorie {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
